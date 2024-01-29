@@ -1,0 +1,62 @@
+.header-text {
+    text-align: center;
+}
+
+.game-field {
+    display: flex;
+    margin: 30px auto;
+    justify-content: center;
+}
+
+.game-field > div {
+    width: 500px;
+    height: 300px;
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+    padding: 0 10px;
+    margin: -40px 0 30px 0;
+}
+
+.player {
+    border: var(--neon-green) solid 2px;
+    color: var(--neon-green);
+}
+
+.player .score {
+    flex-direction: row-reverse;
+}
+
+.cpu {
+    border: var(--neon-blue) dotted 1px;
+    color: var(--neon-blue);
+}
+
+button {
+    color: var(--neon-green);
+    background: none;
+    border: none;
+    transform: scale(8);
+    transition: all 1s;
+}
+
+.player button:hover {
+    transform: scale(10);
+}
+
+.cpu button {
+    color: var(--neon-blue);
+}
+
+.buttons {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.selected {
+    text-shadow: rgba(255, 255, 255, 1) 0px 0px 2px;
+}

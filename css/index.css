@@ -1,0 +1,23 @@
+main {
+    height: 75vh;
+    width: 400px;
+    padding: 30px;
+    border: var(--neon-magenta) solid 2px;
+    margin: 5% auto;
+    text-align: center;
+}
+
+a {
+    border: rgb(255, 220, 0) solid 2px;
+    color: rgb(255, 220, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 26px;
+    width: fit-content;
+    align-self: center;
+}
+
+main > div {
+    height: 100%;
+}
+ 

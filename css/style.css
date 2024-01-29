@@ -1,0 +1,29 @@
+:root {
+    --neon-magenta: rgb(250, 50, 250);
+    --neon-green: rgb(50, 255, 50);
+    --neon-blue: rgb(58, 255, 255);
+}
+
+body {
+    background-color: black;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+.magenta {
+    color: var(--neon-magenta);
+}
+
+.game-logo {
+    font-size: 40px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.game-description {
+    font-size: 22px;
+}
